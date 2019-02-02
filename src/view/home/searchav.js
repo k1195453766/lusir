@@ -178,7 +178,7 @@ export default class SearchAV extends BaseComponent {
                 {
                     this.state.isSearch == false ? (
                         <View style={{ flex: 1, backgroundColor: color.background, alignItems: 'center', padding: 20 }}>
-                            <Text style={{ fontSize: 12, color: 'gray' }}>{config.baseName}帮你找片,可以按番号·视屏名字·女优名字等来查询</Text>
+                            <Text style={{ fontSize: 12, color: 'gray' }}>{config.baseName}帮你找片,可以按番号·视频名字·演员名字等来查询</Text>
                             <Text style={{ fontSize: 12, color: color.saffron_yellow, marginTop: 10 }}>点击右上角搜索图标离开搜索页</Text>
 
                             <TouchableOpacity onPress={this.onSearch} style={{ width: Dimension.width * 0.8, height: 40, backgroundColor: color.saffron_yellow, borderRadius: 5, justifyContent: 'center', alignItems: 'center', marginTop: 10 }}>
