@@ -1,5 +1,5 @@
 
-lusir app
+lusir app（全看视频）
 
 使用react-native写的看电影app
 
