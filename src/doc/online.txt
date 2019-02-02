@@ -1,0 +1,24 @@
+//获取网络连接状态
+
+
+Android可获取的状态比较多，上面的status可能有如下的值:
+ + NONE - 设备处于离线状态
+ + BLUETOOTH - 蓝牙数据连接
+ + DUMMY - 模拟数据连接
+ + ETHERNET - 以太网数据连接
+ + MOBILE - 移动网络数据连接
+ + MOBILE_DUN - 拨号移动网络数据连接
+ + MOBILE_HIPRI - 高优先级移动网络数据连接
+ + MOBILE_MMS - 彩信移动网络数据连接
+ + MOBILE_SUPL - 安全用户面定位（SUPL）数据连接
+ + VPN - 虚拟网络连接。需要Android5.0以上
+ + WIFI - WIFI数据连接
+ + WIMAX - WiMAX数据连接
+ + UNKNOWN - 未知数据连接
+
+ IOS端网络状态
+ none - 设备处于离线状态。
+ wifi - 设备处于联网状态且通过wifi链接，或者是一个iOS的模拟器。
+ cell - 设备是通过Edge、3G、WiMax或是LTE网络联网的。
+ unknown - 发生错误，网络状况不可知
+
