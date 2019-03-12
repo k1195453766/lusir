@@ -32,7 +32,6 @@ lusir app（全看视频）
 运行：
 	1.下载或者clone项目，解压
 	2.执行yarn install
-	3.复制项目根目录下copy文件夹中，文件夹下的文件,替换掉node_modules中对应的第三方库中的文件
-	4.执行react-native run-android命令
+	3.执行react-native run-android命令
 
 如果本项目对你学习react-native有所帮助，请给个star，以后继续完善本项目，添加其他功能
